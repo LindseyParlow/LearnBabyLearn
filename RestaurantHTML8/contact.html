@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+    </head>
+    <body>
+        <center>
+            <h1>Backyard Eats</h1>
+        </center>
+        <hr/>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact.html">Contact Us</a>
+        <hr/>
+        <br/>
+        <table width="500">
+            <tr>
+                <td align="right">Name:</td>
+                <td>
+                    <form action="contact.html" method="post">
+                        <input type="text" name="Name" style="width:180px">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">Email:</td>
+                <td>
+                    <form action="contact.html" method="post">
+                        <input type="text" name="Email" style="width:180px">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">Phone:</td>
+                <td>
+                    <form action="contact.html" method="post">
+                        <input type="text" name="Phone" style="width:180px">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">Reason for Inquiry:</td>
+                <td>
+                    <form action="contact.html" method="post">
+                        <select name:"reason" style="width:185px">
+                            <option value="Catering" checked>Catering</option>
+                            <option value="PrivateParty">Private Party</option>
+                            <option value="Feedback">Feedback</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">Additional Information:</td>
+                <td>
+                    <form action="contact.html" method="post">
+                        <textarea name="AdditionalInformation" rows="4" style="width:180px"></textarea>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">Have you been to the restaurant?</td>
+                <td>
+                    <form action="contact.html" method="post" style="width:180px">
+                        <input type="radio" name="BeenTo" value="No" checked/>No
+                        <input type="radio" name="BeenTo" value="Yes"/>Yes
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">Best Days to contact you:</td>
+                <td>
+                    <form action="contact.html" method="post">
+                        <input type="checkbox" name="BestDay" value="M"/>M
+                        <input type="checkbox" name="BestDay" value="T"/>T
+                        <input type="checkbox" name="BestDay" value="W"/>W
+                        <input type="checkbox" name="BestDay" value="Th"/>Th
+                        <input type="checkbox" name="BestDay" value="F"/>F
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <form action="contact.html" method="post">
+                        <input type="submit" value="Send Request" />
+                </td>
+            </tr>
+        </table><br/>
+        <footer>
+            <hr/>
+            <center>
+                1122 Boogey Boogey Ave, Dancetown, MN, 65432 <br/>
+                555-867-5309
+            </center>
+        </footer>
+    </body>
+</html>
