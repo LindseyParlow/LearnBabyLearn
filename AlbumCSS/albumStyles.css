@@ -1,8 +1,16 @@
 body { 
-    background-color: #866D9B;
-}
-image {border: 10px dotted;}
+    background-color: plum;}
+div {
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/Chicksfly.jpg/220px-Chicksfly.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 500px;
+    height: 500px;
+    }
 hr {border: 10px dotted;}
 table {background-color: #5AAC96; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif}
 tr {text-align: center;}
 h1 {font-size: 400%}
+li {
+    font-style: italic
+}
