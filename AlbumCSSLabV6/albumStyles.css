@@ -1,0 +1,47 @@
+body { 
+    background-color: plum;
+    font-family: Comic Sans MS;
+}
+
+img {
+    height: 300px;
+}
+
+hr {
+    border: 10px dotted;
+}
+
+tbody tr:nth-child(even) {
+    background-color: plum;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: purple;
+}
+
+table {
+    background-color: #5AAC96; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0px auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 400%;
+}
+
+li {
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #5AAC96;
+    text-decoration: underline;
+}
+
+td {
+    font-style: italic;
+}
